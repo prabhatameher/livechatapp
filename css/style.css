@@ -1,0 +1,108 @@
+.logo {
+    display:block;
+    margin:auto;
+    height:150px;
+    width: 150px;
+   
+}
+h1{
+    color: aliceblue;
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 1031px;
+    margin:auto;
+    height:60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    color: white;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 128), 0 0 5px darkblue;
+ 
+    
+}
+.message{
+    color: aliceblue;
+    background-color:white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.left{
+    background-color:rgba(0, 255, 221, 0);
+    border: 1px solid white;
+    box-shadow: 2px 3px 2px black;
+    float: left;
+    clear: both;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(250, 79, 0), 0 0 5px darkblue;
+
+}
+.right{
+    background-color:rgba(0, 255, 221, 0);
+    border: 1px solid white;
+    box-shadow: 2px 3px 2px black;
+    float: right;
+    clear: both;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 149), 0 0 5px darkblue;
+    
+}
+
+#send-container{
+   
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#messageInp{
+    background-color:rgba(0, 255, 221, 0);
+    color: white;
+    width: 92%;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 255, 0), 0 0 5px darkblue;
+}
+.btn{
+    margin :0 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 9%;
+}
+
+
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../chatback4.jpg);
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
